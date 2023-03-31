@@ -10,48 +10,76 @@ h1{
 h2{
     font-size: 1.5rem;
 }
-/*
-header{
-    background-color: #536872;
-    width: 100%;
-    height: 8%;
-    position: fixed;
+h3{
+    font-size 1.25rem;
 }
-.banner{
-    margin-top: 1.5rem;
-    margin-left: 2rem;
-    margin-bottom: 1.5;
-}
-.nav{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
-    
-} */
 
 header{
     height: 10rem;
     top: 0;
     background-color: #536872;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
+    width: 100%;
 }
 .banner{
  margin-left: 3rem;
- 
+ margin-top: 2rem;
 }
 
 .nav{
     display: flex;
     flex-direction: column;
     list-style: none;
-    text-align: right;
-    margin-right: 10px;
-    
+    text-align: justify;
+    margin-top: 2.5rem;
+    margin-right: 3rem;
 
 }
 .nav li{
-    margin: 0 10px;
-    text-decoration: underline;   
+    margin: 0 10px;  
+}
+.bio{
+    width: 100%;
+    height: auto; 
+    position: relative;
+}
+.bread{
+    position: absolute;
+    width: 100%;
+    height: 50rem;
+
+}
+.biocontainer{
+    position: absolute;
+    top: 10rem;
+    left: 2;
+    background-color: #83a1bd;
+    height: 50%;
+    width: 40%;
+    margin: 2rem;
+    border-radius: 20%;
+    text-align: justify;
+    
+}
+.biotext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    text-align: justify;
+    margin: 1.25rem 5rem;
+}
+.biotext h3, p{
+    padding: 1rem 0;
+
+}
+
+#ps{
+    font-size: .7rem;
+}
+.projectcontainer{
+    background: #f4ca70;
+    height: 15rem;
+
 }
