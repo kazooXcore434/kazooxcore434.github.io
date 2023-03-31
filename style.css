@@ -55,8 +55,8 @@ header{
     top: 10rem;
     left: 2;
     background-color: #83a1bd;
-    height: 50%;
-    width: 40%;
+    height: 35rem;
+    width: 28rem;
     margin: 2rem;
     border-radius: 20%;
     text-align: justify;
@@ -68,10 +68,11 @@ header{
     align-items: flex-start;
     width: 70%;
     text-align: justify;
-    margin: 1.25rem 5rem;
+    margin: .75rem 4rem;
+    
 }
 .biotext h3, p{
-    padding: 1rem 0;
+    padding: .4rem;
 
 }
 
