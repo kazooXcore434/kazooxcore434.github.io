@@ -4,8 +4,13 @@
     font-size: 16px;
     font-family: "Playfair Display";
 }
+body{
+    background-color: #536872;
+}
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 800;
+
 }
 h2{
     font-size: 1.5rem;
@@ -18,7 +23,7 @@ header{
     height: 10rem;
     top: 0;
     background-color: #536872;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     width: 100%;
 }
@@ -43,44 +48,73 @@ header{
     width: 100%;
     height: auto; 
     position: relative;
-}
-.bread{
-    position: absolute;
-    width: 100%;
+    background-image: url('./resources/images/Sourdough2.jpg');
+    background-position: 20%;
+    background-repeat: none;
+    display: block;
+    margin 0 auto;
     height: 50rem;
-
+    background-size: cover;
 }
-.biocontainer{
+
+.biotext{
     position: absolute;
-    top: 10rem;
-    left: 2;
     background-color: #83a1bd;
+    top: 7rem;
+    left: 2rem;
     height: 35rem;
     width: 28rem;
     margin: 2rem;
     border-radius: 20%;
-    text-align: justify;
-    
-}
-.biotext{
+    text-alighn: justify;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 70%;
-    text-align: justify;
-    margin: .75rem 4rem;
+}
+.biotext h3,p{
+    margin: 1.2rem 3rem 1rem 3.5rem;
     
 }
-.biotext h3, p{
-    padding: .4rem;
-
-}
-
 #ps{
-    font-size: .7rem;
+    font-size: .8rem;
 }
 .projectcontainer{
-    background: #f4ca70;
+    display: flex;
+    flex-direction: row-reverse;
+    top:42rem;
+    background: 
+    background-color: #536872;
     height: 15rem;
-
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.projectcontainer h1{
+    margin-right: 3rem;
+    padding-top: 2rem;
+}
+.projectlist{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+    margin-top: 2.2rem;
+    margin-left: 3rem;
+    
+}
+.projectlist li{
+    margin: .5rem;
+    text-align: center;
+    background-color: #83a1bd;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+.projectlist a{
+    color: black;
+    text-decoration: none;
+}
+.projectlist li:hover{
+    background-color: #f1bd4f;
+    box-shadow: 0 10px 10px 0 #36424b;
 }
