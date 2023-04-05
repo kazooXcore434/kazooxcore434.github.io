@@ -93,6 +93,7 @@ header{
 .projectcontainer h1{
     margin-right: 3rem;
     padding-top: 2rem;
+    font-size: 5rem;
 }
 .projectlist{
     display: flex;
