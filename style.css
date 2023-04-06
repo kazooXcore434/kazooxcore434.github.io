@@ -80,13 +80,10 @@ header{
 }
 .projectcontainer{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;justify-content: space-between;
     top:42rem;
-    background: 
     background-color: #536872;
     height: 15rem;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     
 }
@@ -119,3 +116,39 @@ header{
     background-color: #f1bd4f;
     box-shadow: 0 10px 10px 0 #36424b;
 }
+.contactcontainer{
+    height: 10rem;
+    top: 0;
+    background-color: #536872;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+
+}
+.contactme{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.contactbutton{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: justify;
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+    list-style: none;
+    height: 6rem;
+    
+
+}
+.contactbutton img{
+    height: 4rem;
+    padding: 1rem;
+    background-color: #83a1bd;
+    ;
+    border-radius: 20px;
+    margin-left: 1rem;
+}
+.contactbutton img:hover{
+    background-color: #f1bd4f;
+    box-shadow: 0 10px 10px 0 #36424b;
