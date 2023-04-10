@@ -234,12 +234,12 @@ header{
     .biotext{
         width: auto;
         padding: 10%;
-        line-height: 1rem;
+        line-height: 1.2rem;
         height: auto;
         background-color: rgb(131, 161, 189, .8);
         left:auto;
         right: auto;
-        top: 10%;
+        top: 15%;
         margin: 1rem;
         text-align: justify;
     }
